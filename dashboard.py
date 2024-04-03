@@ -116,7 +116,7 @@ def sleep_hours_distribution(df):
     return fig
 
 #Import data
-all_data = pd.read_csv('D:/pythonProject/HeartDiseaseReport/all_data.csv')
+all_data = pd.read_csv('all_data.csv')
 
 #MAIN
 st.title("CDC's 2022 Heart Disease Patient Dashboard")
